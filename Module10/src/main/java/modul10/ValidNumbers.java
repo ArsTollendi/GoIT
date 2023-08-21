@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class ValidNumbers {
     public void checkNumbers() {
-        File file = new File("src/main/java/modul10/numbers.txt");
+        File file = new File("Module10/src/main/java/modul10/numbers.txt");
         if (file.exists()) {
             try (InputStream fis = new FileInputStream(file);
                  Scanner scaner = new Scanner(fis)) {

@@ -20,7 +20,7 @@ public class JsonUser {
     }
 
     public void addUsersToList() throws IOException {
-        InputStream fis = new FileInputStream("src/main/java/modul10/Task2/file.txt");
+        InputStream fis = new FileInputStream("Module10/src/main/java/modul10/Task2/file.txt");
         Scanner scanner = new Scanner(fis);
         scanner.nextLine();
         while (scanner.hasNext()) {

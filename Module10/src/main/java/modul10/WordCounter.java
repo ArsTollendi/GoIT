@@ -10,7 +10,7 @@ import java.util.*;
         int deftRepeat = 1;
 
         Map<String, Integer> wordsRepeat = new HashMap<>();
-        try (InputStream fis = new FileInputStream("src/main/java/modul10/words.txt");
+        try (InputStream fis = new FileInputStream("Module10/src/main/java/modul10/words.txt");
              Scanner scanner = new Scanner(fis)) {
             while (scanner.hasNext()) {
                 String wordLine = scanner.nextLine();
